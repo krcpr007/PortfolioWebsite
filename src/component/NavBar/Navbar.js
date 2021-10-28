@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Navbar.css';
 const Navbar = () => {
     return (
@@ -7,23 +7,23 @@ const Navbar = () => {
         <input type="checkbox" id="navbar-checkbox"/>
         <div className="navbar-header">
           {/* <div className="navbar-title"> */}
-            <Link to="/" className="navbar-title" >Rajankr.</Link>
+            <a href="/" className="navbar-title" >Rajankr.</a>
           {/* </div> */}
         </div>
         <div className="navbar-responsive-button">
-          <label for="navbar-checkbox">
+          <label htmlFor="navbar-checkbox">
             <span className="hamburger-icon"></span>
             <span className="hamburger-icon"> </span>
             <span className="hamburger-icon"></span>
           </label>
         </div>
         <div className="navbar-links">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/project">Pojects</Link>
-          <Link to="#Locations">Skills</Link>
-          <Link to="#Contact">Contact</Link>
-          <Link to="#Contact">Resume</Link>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/project">Pojects</a>
+          <a href="#Locations">Skills</a>
+          <a href="#Contact">Contact</a>
+          <a href="/" target="_blank">Resume</a>
         </div>
       </div>
     )

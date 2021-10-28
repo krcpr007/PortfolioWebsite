@@ -1,9 +1,32 @@
 footer{
-    height: 500px;
-    text-align: center;
-    background-color: #112240;
-    color: white;
+    height: 450px;
+    background-color: #0A192F;
+   
 }
-.icons{
-    color: brown !important;
+.footer-Heading{
+    color: #CCD6F6;
+    
+}
+.footer-paragraph{
+    color: #7883A1;
+}
+.footer-container{
+    padding: 50px;
+    text-align: center;
+}
+.footer-btn{
+    margin-top: 15px;
+    background-color:#0A192F;
+    font-size: 20px;
+    padding: 10px;
+    font-family: cursive;
+    color: #64ffda;
+    border-radius: 10px;
+    border: 1px solid #64ffda;
+    cursor: pointer;
+}
+.footer-btn:hover{
+    background-color: #64ffda;
+    color: #112240;
+    
 }

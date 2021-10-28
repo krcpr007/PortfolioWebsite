@@ -1,0 +1,138 @@
+.about-container2 .about-heading{
+    color: #CCD6F6;
+}
+.about-container{
+    text-align: initial;
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+.about-container2{
+    text-align: inherit;
+    margin-left: 240px;
+}
+.about-container2 p{
+    font-size: 20px;
+    color: #CCD6F6;
+    padding: 20px;
+    
+}
+.about-pragraph{
+    position: absolute;
+    left:550px;
+}
+.skills-list{
+    position: absolute;
+    top: 230px;
+    left: 550px;
+    
+}
+.skills-list li{
+    list-style-type:circle;
+    margin-left: 30px;
+}
+.skills-list ul{
+    column-count: 2;
+    color: #CCD6F6;
+
+}
+ul li::before {
+    content: "\2022";  
+    color: #64ffda; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+.myImg{  
+    float: left;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: none !important;
+    border: none !important;
+    filter: rgb(141, 224, 173); 
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .1s ease-in-out;  
+    
+    }
+.myImg:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      transform: scale(1) !important;
+    }
+.about-heading::after{
+        content: ''; 
+        display: block;
+        width: 590px;
+        height: 0.5px;
+        background: #CCD6F6;
+        position: relative;
+        bottom: 15px;
+        left: 220px;
+
+        opacity: 0.2;
+        z-index: -2;
+}
+@media (max-width:480px) {
+.myImg{  
+    float: left;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: none !important;
+    border: none !important;
+    filter: rgb(141, 224, 173); 
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .1s ease-in-out;  
+
+}
+.about-container{
+    height: 650px;
+}
+.about-container2{
+    margin-top: 100px;
+    /* text-align: inherit; */
+    margin-left: 24px;
+}
+.about-container2 p{
+    /* font-size: 20px; */
+    color: #CCD6F6;
+    /* padding: 20px; */
+    /* margin-left: 400px; */
+    position: absolute;
+    width: 400px;
+    top: 250px;
+    right: 150px;
+    text-align: initial;
+    
+}
+.about-pragraph{
+    position: absolute;
+    left:550px;
+}
+.skills-list{
+    position: absolute;
+    top: 230px;
+    left: 550px;
+    
+}
+.skills-list li{
+    list-style-type:circle;
+    margin-left: 20px;
+}
+.skills-list ul{
+    column-count: 2;
+    color: #CCD6F6;
+    position: absolute;
+    width: 400px;
+    top: 370px;
+    right: 150px;
+}
+.about-heading::after{
+        display: none;
+}
+
+}
+.myImg img{
+    border-radius: 5% !important;
+    
+}
