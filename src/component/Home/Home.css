@@ -44,13 +44,14 @@ img{
     padding: 10px;
     font-family: cursive;
     color: #CCD6F6;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1px groove #64ffda;
     cursor: pointer;
 }
 .home-btn:hover{
     background-color: #64ffda;
     color: #112240;
+    box-shadow: 0px 5px 10px #64ffda;
     
 }
 @media (max-width:480px) {

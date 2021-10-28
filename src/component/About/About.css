@@ -50,11 +50,16 @@ ul li::before {
     cursor: pointer;
     box-shadow: none !important;
     border: none !important;
-    filter: rgb(141, 224, 173); 
+    filter: grayscale();
     -webkit-filter: grayscale(1); 
-    -webkit-transition: all .1s ease-in-out;  
-    
-    }
+}
+.img{
+    box-shadow: 8px 8px #64ffda;
+    transition: box-shadow 1s;
+}
+.img:hover{
+    box-shadow: none;
+}
 .myImg:hover {
     filter: none;
       -webkit-filter: grayscale(0);
@@ -82,7 +87,7 @@ ul li::before {
     border: none !important;
     filter: rgb(141, 224, 173); 
     -webkit-filter: grayscale(1); 
-    -webkit-transition: all .1s ease-in-out;  
+      
 
 }
 .about-container{
