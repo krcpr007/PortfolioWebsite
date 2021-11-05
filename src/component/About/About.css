@@ -23,7 +23,7 @@
 }
 .skills-list{
     position: absolute;
-    top: 230px;
+    top: 250px;
     left: 550px;
     
 }
@@ -38,11 +38,11 @@
 }
 ul li::before {
     content: "\2022";  
-    color: #64ffda; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    color: #64ffda; 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
   }
 .myImg{  
     float: left;
@@ -68,76 +68,72 @@ ul li::before {
 .about-heading::after{
         content: ''; 
         display: block;
-        width: 590px;
+        width:700px;
         height: 0.5px;
         background: #CCD6F6;
         position: relative;
         bottom: 15px;
-        left: 220px;
-
+        left: 200px;
         opacity: 0.2;
         z-index: -2;
-}
-@media (max-width:480px) {
-.myImg{  
-    float: left;
-    width: 300px;
-    cursor: pointer;
-    box-shadow: none !important;
-    border: none !important;
-    filter: rgb(141, 224, 173); 
-    -webkit-filter: grayscale(1); 
-      
-
-}
-.about-container{
-    height: 650px;
-}
-.about-container2{
-    margin-top: 100px;
-    /* text-align: inherit; */
-    margin-left: 24px;
-}
-.about-container2 p{
-    /* font-size: 20px; */
-    color: #CCD6F6;
-    /* padding: 20px; */
-    /* margin-left: 400px; */
-    position: absolute;
-    width: 400px;
-    top: 250px;
-    right: 150px;
-    text-align: initial;
-    
-}
-.about-pragraph{
-    position: absolute;
-    left:550px;
-}
-.skills-list{
-    position: absolute;
-    top: 230px;
-    left: 550px;
-    
-}
-.skills-list li{
-    list-style-type:circle;
-    margin-left: 20px;
-}
-.skills-list ul{
-    column-count: 2;
-    color: #CCD6F6;
-    position: absolute;
-    width: 400px;
-    top: 370px;
-    right: 150px;
-}
-.about-heading::after{
-        display: none;
-}
-
 }
 .myImg img{
     border-radius: 5% !important;
     
+}
+@media (max-width:480px) {
+        .myImg{  
+            float: left;
+            width: 300px;
+            cursor: pointer;
+            box-shadow: none !important;
+            border: none !important;
+            filter: rgb(141, 224, 173); 
+            -webkit-filter: grayscale(1); 
+        }
+        .about-container{
+            height: 650px;
+        }
+        .about-container2{
+            margin-top: 100px;
+            /* text-align: inherit; */
+            margin-left: 24px;
+        }
+        .about-container2 p{
+            /* font-size: 20px; */
+            color: #CCD6F6;
+            /* padding: 20px; */
+            /* margin-left: 400px; */
+            position: absolute;
+            width: 400px;
+            top: 250px;
+            right: 150px;
+            text-align: initial;
+        }
+        .about-pragraph{
+            position: absolute;
+            left:550px;
+        }
+        .skills-list{
+            position: absolute;
+            top: 240px;
+            left: 550px;
+            
+        }
+        .skills-list li{
+            list-style-type:circle;
+            margin-left: 20px;
+        }
+        .skills-list ul{
+            column-count: 2;
+            color: #CCD6F6;
+            position: absolute;
+            width: 400px;
+            top: 390px;
+            right: 150px;
+        }
+        .about-heading::after{
+                display: none;
+        }
+
 }

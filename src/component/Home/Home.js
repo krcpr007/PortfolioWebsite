@@ -1,5 +1,6 @@
 import React from 'react'
-import './Home.css'
+import './Home.css'; 
+import { FaGithubAlt } from 'react-icons/fa';
 const Home = () => {
     return (
         <>
@@ -13,7 +14,7 @@ const Home = () => {
                     <div>
                     <form target="_blank" action="https://github.com/krcpr007">
 
-                    <button className="home-btn" type="submit" >Check out my Github</button>
+                    <button className="home-btn" type="submit" >My  <FaGithubAlt style={{}}/> GitHub </button>
                     </form>
                     </div>
                 </div>

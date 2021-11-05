@@ -38,12 +38,14 @@ img{
     margin-top: 30px;
 }
 .home-btn{
+    
     margin-top: 20px;
     background-color:#0A192F;
     font-size: 20px;
     padding: 10px;
-    font-family: cursive;
-    color: #CCD6F6;
+    /* font-family: cursive; */
+    /* color: #CCD6F6; */
+    color: #64ffda;
     border-radius: 8px;
     border: 1px groove #64ffda;
     cursor: pointer;

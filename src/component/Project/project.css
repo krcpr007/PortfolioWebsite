@@ -2,33 +2,47 @@
     color: #CCD6F6;
 }
 .project-container{
+    /* background-color: white; */
     margin-top: 170px;
     text-align: initial;
     width: 100%;
-    /* height: 670px; */
+    /* margin-bottom: 200px; */
     position: relative;
 }
 .project-container2{
+    /* background-color: red; */
+    color: #CCD6F6;
     text-align: inherit;
     margin-left: 240px;
+    width: 80%;
 }
-/* .line{
-    width: 200px;
-    background-color: white;
-} */
+.project1-abt{
+    /* text-align: left; */
+    text-align: justify;
+    width: 45%;
+}
+.project-img  {
+    /* width: 500px; */
+    /* width: 200px;
+    height: 200px; */
+    /* background-color: black; */
+    position: relative;
+    left: 600px;
+    bottom:250px;
+}
 .project-heading::after{
     content: ''; 
-    display: block;
-    width: 420px;
-    height: 0.5px;
-    background: #CCD6F6;
-    position: absolute;
-    right: 450px;;
-    top: 50%;
-    opacity: 0.2;
-    z-index: -2;
+        display: block;
+        width: 580px;
+        height: 0.5px;
+        background: #CCD6F6;
+        position: relative;
+        bottom: 15px;
+        left: 320px;
+        opacity: 0.2;
+        z-index: -2;
 }
-@media (max-width:480px) {
+@media (max-width:480px)  {
     .project-container2{
         margin-top: 100px;
         text-align: inherit;
