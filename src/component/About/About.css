@@ -19,6 +19,7 @@
 }
 .about-pragraph{
     position: absolute;
+    text-align: justify;
     left:550px;
 }
 .skills-list{
@@ -112,6 +113,7 @@ ul li::before {
         }
         .about-pragraph{
             position: absolute;
+            text-align: justify !important;
             left:550px;
         }
         .skills-list{

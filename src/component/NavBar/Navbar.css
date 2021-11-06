@@ -114,7 +114,7 @@ body {
     transform: translate(0, -6%);
     transition: all 1s ease-out;
     overflow-y: hidden;
-    background-color: #ffffff;
+    
 	}
 
 	.navbar-links > a {

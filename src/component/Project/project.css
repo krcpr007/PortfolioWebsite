@@ -42,10 +42,33 @@
         opacity: 0.2;
         z-index: -2;
 }
-@media (max-width:480px)  {
+@media (max-width:600px)  {
+    .project-heading::after{
+        display: none;
+           
+    }
+    .project-img  {
+        /* width: 500px; */
+        /* width: 200px;
+        height: 200px; */
+        /* background-color: black; */
+        /* width: 400px; */
+        /* style={{ width: "400px", border: '2px solid #CCD6F6', borderRadius: "5px" }} */
+        position: relative;
+        left: 0px;
+        bottom:0px;
+    }
+    .project-img img{
+        width:350px ;
+        border: 1px solid #CCD6F6;
+        border-radius: 5px;
+    }
     .project-container2{
         margin-top: 100px;
         text-align: inherit;
         margin-left: 24px;
+    }
+    .project1-abt{
+        width: 100%;
     }
 }
