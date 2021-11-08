@@ -1,11 +1,10 @@
 import React from 'react'
 import './project.css';
-// import project from './project';
 import { FaGithubAlt } from 'react-icons/fa';
 import projectImg from './desktop-1245714.jpg'
-const Projects = () => {
+const Projects = (props) => {
     return (
-        <div className="project-container">
+        <div data-aos={props.dataAos} data-aos-once="true" className="project-container">
             <div className="project-container2">
                 <h2 className="project-heading"><span style={{ color: "#64ffda" }}>02.</span>Some Things I’ve Built</h2>
 

@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react'; 
+import { useEffect } from 'react';
 import './About.css';
-import myImg from './myPic.jpg'
-const About = () => {
+import myImg from './myPic.jpg';
+
+const About = (props) => {
+   
     return (
-        <div id="#about" className="about-container">
+        <div id="#about" data-aos={props.dataAos} className="about-container">
             <div className="about-container2">
                 <div className="heading">
                     <h2 className="about-heading"><span style={{ color: "#64ffda" }}>01.</span> About Me</h2>

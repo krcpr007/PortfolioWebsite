@@ -5,12 +5,10 @@ import { FaGithub } from 'react-icons/fa'
 import {FaLinkedinIn} from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import { FaFacebookSquare } from 'react-icons/fa'
-
-
-const Footer = () => {
+const Footer = (props) => {
     return (
         <footer>
-            <div className="footer-container">
+            <div data-aos={props.dataAos} data-aos-once="true" className="footer-container">
               <h1 className="footer-Heading" >Get In Touch</h1>
               <p className="footer-paragraph">Although I’m not currently looking for any new opportunities, my inbox is <br/> always open. Whether you have a question or just want to say hi, I’ll try my <br/> best to get back to you!</p>
               <div className="icons">

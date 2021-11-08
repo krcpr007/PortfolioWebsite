@@ -30,6 +30,11 @@
     left: 600px;
     bottom:250px;
 }
+.project-img img{
+    width:450px ;
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+}
 .project-heading::after{
     content: ''; 
         display: block;

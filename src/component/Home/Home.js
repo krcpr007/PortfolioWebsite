@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             {/* <img className="" src={myImg} alt="MY IMAGE" /> */}
-            <div className="home-container">
+            <div data-aos="fade-left" className="home-container">
                 <div className="home-container2">
                     <p className="home-paragraph">Hii, my name is </p>
                     <h1 className="home-heading1">Rajan Kumar</h1>

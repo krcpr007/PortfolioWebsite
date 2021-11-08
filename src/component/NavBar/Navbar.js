@@ -1,9 +1,14 @@
-import React from 'react'
+import React  from 'react'
 import { Link } from 'react-router-dom';
-import './Navbar.css';
-const Navbar = () => {
+import './Navbar.css'; 
+const Navbar = (props) => {
+  const onclick =( e)=>{
+    
+    e.preventDefault()
+  }
     return (
-        <div className="navbar">
+        <div data-aos={props.dataAos} data-aos-once="true"
+         className="navbar">
         <input type="checkbox" id="navbar-checkbox"/>
         <div className="navbar-header">
           {/* <div className="navbar-title"> */}
@@ -19,7 +24,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-links">
           <a href="/">Home</a>
-          <Link to="/about">About</Link>
+          <Link to="/about" onClick={onclick}>About</Link>
           <a href="/project">Pojects</a>
           <a href="#Locations">Skills</a>
           <a href="#Contact">Contact</a>

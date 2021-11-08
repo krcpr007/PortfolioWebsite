@@ -3,6 +3,8 @@ import {
 //   Switch,
 //   Route
 } from "react-router-dom";
+import Aos from "aos";
+import 'aos/dist/aos.css'; 
 import { useEffect, useState } from 'react';
 import Projects from './component/Project/Projects'
 import About from './component/About/About';
@@ -17,34 +19,40 @@ function App() {
         setloading(true); 
         setTimeout(() => {
           setloading(false);
-        }, 10);
+        }, 4000);
   },[]);
+  useEffect(() => {
+    Aos.init({duration:2000}); 
+    
+  }, []);
+
+
   return (
-      <div> 
+      <>
     { loading ? (
     <Loder/>
     )
       :(
         <>
               <Router>
-               <Navbar />
+               <Navbar dataAos="fade-right"  />
               {/* <Switch> */}
               {/* <Route exact path="/"> */}
                 {/* <preloader/> */}
               <Home />
               {/* </Route> */}
               {/* <Route exact path="/about"> */}
-              <About id="#about" />
+              <About dataAos="fade-up" />
               {/* </Route> */}
               {/* <Route exact path="/projects"> */}
-              <Projects />
+              <Projects dataAos="zoom-in" />
               {/* </Route> */}
               {/* </Switch> */}
-              <Footer />
+              <Footer  dataAos="zoom-in"/>
               </Router>
               </>
       )}
-      </div>
+      </>
   );
 }
 
