@@ -11,10 +11,13 @@ const Projects = (props) => {
                 <div className="project1">
                     <div className="project1-abt">
                         <a href="https://github.com/krcpr007/BhartiTheme" rel="noreferrer" target="_blank" style={{ color: "#CCD6F6" }} > <h2 style={{ color: "#CCD6F6", }} > <span style={{ color: "#64ffda" }} >01. </span> Bharti Theme <FaGithubAlt style={{ fontSize: "20px", padding: "1px" }} />  </h2> </a>
-                        <p>
-                            Totam dignissimos nisi temporibus alias voluptas assumenda itaque, aperiam fugit, officia quis sit. Rerum, temporibus. Nostrum, maxime sequi. Sit nesciunt iusto esse reprehenderit adipisci fugiat quos molestias similique quod ipsam.
-                            Deleniti, fuga quam provident harum iusto recusandae veniam vitae quos eos enim ea. Enim harum nemo, laborum sint velit at porro ipsam cumque voluptates rem facere neque, exercitationem repellendus molestias.
-                            Ea hic assumenda blanditiis veritatis, eligendi praesentium esse repudiandae delectus consectetur minima harum repellendus porro voluptatum nihil dolores quos sed, accusamus error nesciunt voluptates animi.</p>
+                        <ul>
+                            <li>This is a <b>VS code dark theme</b> named Bharti theme made with help of <a href="https://www.npmjs.com/package/generator-code" target="_blank" rel="noreferrer"> <b>Yo Code </b> </a> - Extension and Customization Generator. <br /></li>
+                            <li>It has medium contrast a or lite contrast theme. <br /></li>
+                            <li>Dark navy blue have editor color <br /></li>
+                            <li> You can download it from vs code extension marketplace and you can use it. <br /></li>
+                            <li><a href="https://marketplace.visualstudio.com/items?itemName=Rajankumar.bharti-theme&ssr=false" target="_blank" rel="noreferrer"> Install</a></li>
+                        </ul>
                         <div className="project-img">
                             <a href="https://raw.githubusercontent.com/krcpr007/BhartiTheme/master/image/bharti_theme2.jpg" target="_blank" rel="noreferrer" >
                                 <img src="https://raw.githubusercontent.com/krcpr007/BhartiTheme/master/image/bharti_theme2.jpg"  alt="priject1img" />
@@ -25,10 +28,14 @@ const Projects = (props) => {
                 <div className="project1">
                     <div className="project1-abt">
                     <a href="https://github.com/krcpr007/NEWSMAiNIA" rel="noreferrer" target="_blank" style={{ color: "#CCD6F6" }} > <h2 style={{ color: "#CCD6F6", }} > <span style={{ color: "#64ffda" }} >02. </span>NEWS MAiNIA<FaGithubAlt style={{ fontSize: "20px", padding: "1px" }} />  </h2> </a>
-                        <p>
-                            Totam dignissimos nisi temporibus alias voluptas assumenda itaque, aperiam fugit, officia quis sit. Rerum, temporibus. Nostrum, maxime sequi. Sit nesciunt iusto esse reprehenderit adipisci fugiat quos molestias similique quod ipsam.
-                            Deleniti, fuga quam provident harum iusto recusandae veniam vitae quos eos enim ea. Enim harum nemo, laborum sint velit at porro ipsam cumque voluptates rem facere neque, exercitationem repellendus molestias.
-                            Ea hic assumenda blanditiis veritatis, eligendi praesentium esse repudiandae delectus consectetur minima harum repellendus porro voluptatum nihil dolores quos sed, accusamus error nesciunt voluptates animi.</p>
+                        <ul>
+                            <li>This is React web app where we can read lots of news.  </li>
+                            <li>Category-wise news (ex-science,business,sports)</li>
+                            <li>It made by using <a href="https://newsapi.org/" target="_blank" rel="noreferrer">NEWS24 API</a> and<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> Reactjs </a> </li>
+                            <li>
+                            <b>News API</b> is a simple, easy-to-use REST API that returns JSON search results for current and historic news articles published by over 80,000 worldwide sources.
+                            </li>
+                        </ul>
                         <div className="project-img">
                             <a href="https://raw.githubusercontent.com/krcpr007/NEWSMAiNIA/main/public/images/Readme.jpg">
                                 <img src="https://raw.githubusercontent.com/krcpr007/NEWSMAiNIA/main/public/images/Readme.jpg"  alt="priject1img" />
@@ -38,23 +45,20 @@ const Projects = (props) => {
                 </div>
                 <div className="project1">
                     <div className="project1-abt">
-                        <h2>Lorem, ipsum</h2>
-                        <p style={{
-                            textAlign:
-                                "intial"
-                        }}>
-                            Totam dignissimos nisi temporibus alias voluptas assumenda itaque, aperiam fugit, officia quis sit. Rerum, temporibus. Nostrum, maxime sequi. Sit nesciunt iusto esse reprehenderit adipisci fugiat quos molestias similique quod ipsam.
-                            Deleniti, fuga quam provident harum iusto recusandae veniam vitae quos eos enim ea. Enim harum nemo, laborum sint velit at porro ipsam cumque voluptates rem facere neque, exercitationem repellendus molestias.
-                            Ea hic assumenda blanditiis veritatis, eligendi praesentium esse repudiandae delectus consectetur minima harum repellendus porro voluptatum nihil dolores quos sed, accusamus error nesciunt voluptates animi.</p>
+                    <a href="https://github.com/krcpr007/MarvelHub" rel="noreferrer" target="_blank" style={{ color: "#CCD6F6" }} > <h2 style={{ color: "#CCD6F6", }} > <span style={{ color: "#64ffda" }} >03. </span>Marvel HuB<FaGithubAlt style={{ fontSize: "20px", padding: "1px" }} />  </h2> </a>
+                        <ul> <li>This is <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> React </a> web app where we can search about marvel superheroes using <a href="https://developer.marvel.com/" target="_blank" rel="noreferrer">Marvel API</a> </li>
+                            <li>The <b>Marvel Comics API</b> allows developers everywhere to access information about Marvel's vast library of comics—from what's coming up, to 70 years ago.</li>
+                            <li><a href="https://marvelhub.pages.dev/" target="_blank" rel="noreferrer">Vist site</a></li>
+                        </ul>
                         <div className="project-img">
-                            <img src={projectImg}  alt="priject1img" />
+                            <img src="https://source.unsplash.com/1600x900/daily?marvel"  alt="priject1img" />
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Projects
