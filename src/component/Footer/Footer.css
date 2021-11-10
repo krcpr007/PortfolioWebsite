@@ -3,6 +3,14 @@ footer{
     background-color: #0A192F;
    
 }
+.icons a{
+    font-size: 30px;
+    color: #64ffda;
+    margin: 12px;
+}
+.icons a:hover{
+    color: #CCD6F6;
+}
 .footer-Heading{
     color: #CCD6F6;
     
