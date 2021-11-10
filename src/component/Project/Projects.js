@@ -20,7 +20,7 @@ const Projects = (props) => {
                         </ul>
                         <div className="project-img">
                             <a href="https://raw.githubusercontent.com/krcpr007/BhartiTheme/master/image/bharti_theme2.jpg" target="_blank" rel="noreferrer" >
-                                <img src="https://raw.githubusercontent.com/krcpr007/BhartiTheme/master/image/bharti_theme2.jpg"  alt="priject1img" />
+                                <img src="https://raw.githubusercontent.com/krcpr007/BhartiTheme/master/image/bharti_theme2.jpg"  alt="project1img" />
                             </a>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const Projects = (props) => {
                         </ul>
                         <div className="project-img">
                             <a href="https://raw.githubusercontent.com/krcpr007/NEWSMAiNIA/main/public/images/Readme.jpg">
-                                <img src="https://raw.githubusercontent.com/krcpr007/NEWSMAiNIA/main/public/images/Readme.jpg"  alt="priject1img" />
+                                <img src="https://raw.githubusercontent.com/krcpr007/NEWSMAiNIA/main/public/images/Readme.jpg"  alt="project1img" />
                             </a>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Projects = (props) => {
                             <li><a href="https://marvelhub.pages.dev/" target="_blank" rel="noreferrer">Vist site</a></li>
                         </ul>
                         <div className="project-img">
-                            <img src="https://source.unsplash.com/1600x900/daily?marvel"  alt="priject1img" />
+                            <img src="https://source.unsplash.com/1600x900/daily?marvel"  alt="project1img" />
                         </div>
                     </div>
                 </div>
