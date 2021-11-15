@@ -19,9 +19,7 @@ const Footer = (props) => {
               <a href="https://twitter.com/Cr7_rajan" target="_blank" rel="noreferrer"><FaTwitter /></a>
               </div>
               <div>
-                  <form target="_blank" rel="noreferrer" action="mailto:rajankk.ug20.cse@nitp.ac.in">
-                  <button type="submit" className="footer-btn"> Say Hello!</button>
-                  </form>
+                  <a href="mailto:rajankk.ug20.cse@nitp.ac.in"><button type="submit" className="footer-btn"> Say Hello!</button></a> 
               </div>
             </div>
             
